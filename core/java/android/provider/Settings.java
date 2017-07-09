@@ -4101,6 +4101,17 @@ public final class Settings {
          * @hide
          */
         public static final String SMARTBAR_DOUBLETAP_SLEEP = "smartbar_doubletap_sleep";
+/**
+        * Whether to use the custom status bar header or not
+        * @hide
+        */
+        public static final String STATUS_BAR_CUSTOM_HEADER = "status_bar_custom_header";
+
+        /**
+        * Current active image. If this is set, it takes priority over time-contextual
+        * @hide
+        */
+        public static final String STATUS_BAR_CUSTOM_HEADER_IMAGE = "status_bar_custom_header_image";
 
         /**
          * Settings to backup. This is here so that it's in the same place as the settings
